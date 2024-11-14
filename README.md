@@ -1,8 +1,7 @@
-# React + Vite
+# React & Tailwind css
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio website built with React and Tailwind CSS with some animation using framer-motion and React icons and Toasts and for sending email I used EmailJs to showcase my skills, projects, and contact information.
 
-Currently, two official plugins are available:
+Portfolio link available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Explore Porfolio](https://portfolio-2j0m43ikk-marouanes-projects-f499e45c.vercel.app/)
