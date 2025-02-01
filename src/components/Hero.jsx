@@ -1,5 +1,5 @@
 import { HERO } from "../constants";
-import MarwanCodes from '../assets/MyPic.jpeg';
+import MarwanCodes from '../assets/MyPic.png';
 import { motion } from "framer-motion"; // Animation library
 
 const Hero = () => {
