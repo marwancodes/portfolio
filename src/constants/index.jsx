@@ -9,9 +9,8 @@ import {
 
 import projectImage1 from "../assets/project1.png";
 import projectImage3 from "../assets/Bistro-Project.png";
-import projectImage4 from "../assets/project4.jpeg";
-import projectImage5 from "../assets/project5.jpeg";
-import projectImage6 from "../assets/project6.jpeg";
+import projectImage4 from "../assets/IMDb.png";
+import projectImage5 from "../assets/e-commerce.png";
 import cesarSpace from '../assets/cesar-space-vercel.png';
 
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
@@ -62,28 +61,21 @@ export const PROJECTS = [
   },
   {
     id: 4,
-    name: "Coming soon",
+    name: "IMDb Movies - Clone",
     description:
-      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
+      "A responsive website with White & DarkMode built with NEXT.js 15 using TypeScript and Tailwind css and React icons.",
     image: projectImage4,
-    githubLink: "https://github.com/marwancodes/cesar-space",
+    githubLink: "https://github.com/marwancodes/imdb-next",
   },
   {
     id: 5,
     name: "Coming soon",
     description:
-      "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
+      "A responsive MERN E-Commerce website with authentication JWT + Cart using TypeScript and Mui Material.",
     image: projectImage5,
-    githubLink: "https://github.com/marwancodes/cesar-space",
+    githubLink: "https://github.com/marwancodes",
   },
-  {
-    id: 6,
-    name: "Coming soon",
-    description:
-      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
-    image: projectImage6,
-    githubLink: "https://github.com/marwancodes/cesar-space",
-  },
+  
 ];
 
 export const BIO = [
