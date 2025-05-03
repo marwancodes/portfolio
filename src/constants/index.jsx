@@ -10,7 +10,8 @@ import {
 import projectImage1 from "../assets/project1.png";
 import projectImage3 from "../assets/Bistro-Project.png";
 import projectImage4 from "../assets/IMDb.png";
-import projectImage5 from "../assets/e-commerce.png";
+import projectImage5 from "../assets/allo-voyage-project.png";
+import projectImage6 from "../assets/e-commerce.png";
 import cesarSpace from '../assets/cesar-space-vercel.png';
 
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
@@ -31,7 +32,7 @@ export const HERO = {
   name: "MARWAN CODES",
   greet: "Hello there! 👋🏻",
   description:
-    "I'm Marouane OUARRADI, a dedicated Full-Stack developer specializing in the MERN stack and Next.js. With a strong foundation in building dynamic, responsive applications, I love transforming complex ideas into engaging, user-centric web experiences. I focus on clean code, intuitive designs, and seamless functionality, whether it's crafting sleek UIs or setting up robust backends. Ready to create impactful digital solutions, one project at a time!",
+    "I’m Marouane OUARRADI — Full-Stack Developer. specialize in building high-performance web applications using the MERN stack and Next.js. From clean and responsive frontends to scalable and secure backends, I bring ideas to life with precision and passion. With a focus on user experience, modern design, and clean architecture, I turn complex problems into elegant digital solutions — one project at a time.",
 };
 
 export const PROJECTS = [
@@ -69,19 +70,28 @@ export const PROJECTS = [
   },
   {
     id: 5,
+    name: "Allo Voyage",
+    description:
+      "A responsive Travel Agency website built with NEXT.js 15 using TypeScript and Tailwind css and React icons and AOS animation.",
+    image: projectImage5,
+    githubLink: "https://github.com/marwancodes/allo-voyage",
+  },
+  {
+    id: 6,
     name: "Coming soon",
     description:
       "A responsive MERN E-Commerce website with authentication JWT + Cart using TypeScript and Mui Material.",
-    image: projectImage5,
+    image: projectImage6,
     githubLink: "https://github.com/marwancodes",
   },
   
 ];
 
 export const BIO = [
-  "Marouane OUARRADI studied computer science at the University of Technology IT-SUP,from which he graduated in 2021. Following his education, he honed his craft and expertise over the course of 2 years at Tech Innovations Inc., where he immersed himself in the world of MERN-Stack development.",
-  "In 2024, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Marouane OUARRADI co-founded WebArtistry alongside his creative partner, Youness Msaddar. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.",
-  "As a multi-disciplinary frontend developer, Marouane OUARRADI brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS with Taiwind CSS, and JavaScript and TypeScript to his proficiency in modern frameworks like React, Next, Express, Marouane OUARRADI possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.",
+  "Marouane OUARRADI is a passionate Full-Stack Developer with a strong foundation in computer science, earned from the University of Technology IT-SUP in 2021. Over the next two years, he sharpened his skills at Tech Innovations Inc., where he specialized in building full-featured web applications using the MERN stack and modern development practices.",
+  "In 2024, Marouane co-founded WebArtistry with his creative partner, Youness Msaddar. United by a vision for innovative and user-focused web experiences, they set out to push the boundaries of frontend development by blending clean architecture, visual creativity, and the latest technologies.",
+  "As a multi-disciplinary developer, Marouane combines technical expertise with an eye for design. He is fluent in HTML, CSS (with Tailwind CSS), JavaScript, and TypeScript, and proficient in powerful frameworks like React, Next.js, and Express.js. Whether building responsive UIs or scalable backends, Marouane delivers performant and engaging digital solutions that leave a lasting impression."
+
 ];
 
 export const SKILLS = [
