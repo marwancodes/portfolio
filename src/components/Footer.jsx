@@ -15,7 +15,7 @@ const Footer = () => {
             ))}
         </div>
         <p className='my-8 text-center text-sm tracking-wide text-gray-400'>
-            &copy;MarwanCodes. All rights reserved. 
+            &copy;MarwanCodes. All rights reserved. United Kingdom 🇬🇧
         </p>
     </footer>
   )

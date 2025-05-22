@@ -11,7 +11,7 @@ import projectImage1 from "../assets/project1.png";
 import projectImage3 from "../assets/Bistro-Project.png";
 import projectImage4 from "../assets/IMDb.png";
 import projectImage5 from "../assets/allo-voyage-project.png";
-import projectImage6 from "../assets/e-commerce.png";
+import projectImage6 from "../assets/earbuds.png";
 import cesarSpace from '../assets/cesar-space-vercel.png';
 
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
@@ -32,7 +32,7 @@ export const HERO = {
   name: "MARWAN CODES",
   greet: "Hello there! 👋🏻",
   description:
-    "I’m Marouane OUARRADI — Full-Stack Developer. specialize in building high-performance web applications using the MERN stack and Next.js. From clean and responsive frontends to scalable and secure backends, I bring ideas to life with precision and passion. With a focus on user experience, modern design, and clean architecture, I turn complex problems into elegant digital solutions — one project at a time.",
+    "I’m Marouane OUARRADI — a Full-Stack Developer crafting high-performance web and mobile applications. I specialize in building modern, responsive interfaces with the MERN stack, Next.js, and React Native. From intuitive frontends to scalable backends, I transform ideas into elegant, user-focused digital solutions. With a passion for UI/UX design, clean architecture, and tools like Figma, I bridge the gap between design and development — delivering seamless experiences, one project at a time.",
 };
 
 export const PROJECTS = [
@@ -43,6 +43,7 @@ export const PROJECTS = [
       "A personal portfolio website built with React and Tailwind CSS with some animation using framer-motion and React icons and Toasts and for sending email I used EmailJs to showcase my skills, projects, and contact information.",
     image: projectImage1,
     githubLink: "https://github.com/marwancodes/portfolio",
+    liveLink: "https://marwancodes.vercel.app/",
   },
   {
     id: 2,
@@ -51,6 +52,7 @@ export const PROJECTS = [
       "An landing page web application developed using React.js, featuring a comprehensive product catalog.",
     image: cesarSpace,
     githubLink: "https://github.com/marwancodes/cesar-space",
+    liveLink: "https://cesar-space.vercel.app/",
   },
   {
     id: 3,
@@ -59,6 +61,7 @@ export const PROJECTS = [
       "A responsive landing page website built with React Js and Tailwind css and for animation AOS library and React icons.",
     image: projectImage3,
     githubLink: "https://github.com/marwancodes/bistro",
+    liveLink: "https://bistro-nine.vercel.app/",
   },
   {
     id: 4,
@@ -67,6 +70,7 @@ export const PROJECTS = [
       "A responsive website with White & DarkMode built with NEXT.js 15 using TypeScript and Tailwind css and React icons.",
     image: projectImage4,
     githubLink: "https://github.com/marwancodes/imdb-next",
+    liveLink: "https://imdb-next-cyan.vercel.app/",
   },
   {
     id: 5,
@@ -75,34 +79,42 @@ export const PROJECTS = [
       "A responsive Travel Agency website built with NEXT.js 15 using TypeScript and Tailwind css and React icons and AOS animation.",
     image: projectImage5,
     githubLink: "https://github.com/marwancodes/allo-voyage",
+    liveLink: "https://allo-voyage.vercel.app/",
   },
   {
     id: 6,
-    name: "Coming soon",
+    name: "Earbuds Landing Page",
     description:
-      "A responsive MERN E-Commerce website with authentication JWT + Cart using TypeScript and Mui Material.",
+      "A responsive landing page website Light/Dark Mode built with Next Js and Tailwind css and for animation AOS library and React icons.",
     image: projectImage6,
-    githubLink: "https://github.com/marwancodes",
+    githubLink: "https://github.com/marwancodes/earbuds-landing-page",
+    liveLink: "https://earbuds-eight.vercel.app/",
   },
   
 ];
 
 export const BIO = [
-  "Marouane OUARRADI is a passionate Full-Stack Developer with a strong foundation in computer science, earned from the University of Technology IT-SUP in 2021. Over the next two years, he sharpened his skills at Tech Innovations Inc., where he specialized in building full-featured web applications using the MERN stack and modern development practices.",
-  "In 2024, Marouane co-founded WebArtistry with his creative partner, Youness Msaddar. United by a vision for innovative and user-focused web experiences, they set out to push the boundaries of frontend development by blending clean architecture, visual creativity, and the latest technologies.",
-  "As a multi-disciplinary developer, Marouane combines technical expertise with an eye for design. He is fluent in HTML, CSS (with Tailwind CSS), JavaScript, and TypeScript, and proficient in powerful frameworks like React, Next.js, and Express.js. Whether building responsive UIs or scalable backends, Marouane delivers performant and engaging digital solutions that leave a lasting impression."
-
+  "Marouane OUARRADI is a passionate Full-Stack Developer currently based in Walsall, United Kingdom, with a robust foundation in computer science earned from the University of Technology IT-SUP in 2021. Since then, he has dedicated himself to mastering modern web and mobile development technologies, building high-performance digital experiences that are both functional and beautifully designed.",
+  "From 2022 to 2024, Marouane honed his skills at Tech Innovations Inc., where he worked on several production-grade web applications using the MERN stack and Next.js, focusing on clean code architecture, scalability, and smooth user experiences.",
+  "In 2024, he co-founded WebArtistry with his creative partner, Youness Msaddar. Together, they set out to merge cutting-edge frontend development with eye-catching design, delivering projects that stand out through thoughtful interaction, fast performance, and sleek visuals.",
+  "As a multi-disciplinary developer, Marouane blends technical know-how with design sensitivity. He is highly proficient in JavaScript, TypeScript, HTML, CSS (Tailwind), and frameworks such as React, Next.js, React Native, and Express.js. His design workflow is enhanced by tools like Figma, allowing him to collaborate effectively and translate ideas into intuitive interfaces.",
+  "Now in the UK, Marouane is exploring opportunities to grow his career by contributing to ambitious teams and impactful projects. With a sharp eye for design, strong problem-solving skills, and a user-first mindset, he is committed to building scalable, elegant, and purposeful digital solutions — both on the web and on mobile.",
 ];
 
 export const SKILLS = [
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
-    name: "React",
-    experience: "2+ years",
+    name: "React JS",
+    experience: "3+ years",
   },
   {
     icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
     name: "Next.js",
+    experience: "2+ year",
+  },
+  {
+    icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
+    name: "React Native",
     experience: "1+ year",
   },
   {
@@ -113,7 +125,7 @@ export const SKILLS = [
   {
     icon: <SiExpress className="text-4xl text-stone-300 lg:text-5xl" />,
     name: "Express.js",
-    experience: "1+ year",
+    experience: "1.5+ year",
   },
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
@@ -123,50 +135,52 @@ export const SKILLS = [
   {
     icon: <RiTailwindCssFill className="text-4xl text-sky-700 lg:text-5xl" />,
     name: "Tailwind css",
-    experience: "1+ year",
+    experience: "2+ year",
   },
 ];
 
 export const EXPERIENCES = [
   {
-    title: "Lead Frontend Developer",
-    company: "Innovative Tech Solutions",
-    duration: "July 2020 - Present",
+    title: "Full-Stack Developer & Co-Founder",
+    company: "WebArtistry",
+    duration: "March 2024 - Present",
     description:
-      "As the Lead Frontend Developer, I spearheaded the development of advanced web applications using cutting-edge technologies like React, Redux, and TypeScript. I worked closely with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and high-performance user experiences.",
+      "Co-founded WebArtistry, a creative tech duo focused on building user-centric web experiences using React, Next.js, and Tailwind CSS. I lead full-stack development on client projects — from setting up scalable Express and MongoDB backends to designing pixel-perfect frontends using Figma and React. I also contribute to mobile app development using React Native and ensure smooth UI/UX delivery across platforms.",
   },
   {
-    title: "Frontend Engineer",
-    company: "Digital Creations",
-    duration: "February 2016 - June 2020",
+    title: "MERN Stack Developer",
+    company: "Freelance / Personal Projects",
+    duration: "January 2022 – March 2024",
     description:
-      "At Digital Creations, I focused on building highly interactive and responsive web interfaces using HTML, CSS, JavaScript, and modern libraries like React. I collaborated closely with UX/UI designers to implement design changes that enhanced user engagement and satisfaction. My role involved optimizing website performance, ensuring cross-browser compatibility, and implementing SEO best practices. ",
+      "Worked independently on a variety of full-stack web applications using the MERN stack. Delivered secure, responsive, and efficient applications, integrating features like JWT authentication, file uploads with Cloudinary, and admin dashboards. Built dynamic user interfaces using React and Tailwind, and deployed projects to Vercel and Render. Strong focus on clean architecture, reusable components, and optimized performance.",
   },
   {
-    title: "Junior Web Developer",
-    company: "Bright Future Technologies",
-    duration: "August 2014 - January 2016",
+    title: "Frontend Developer Intern",
+    company: "Tech Innovations Inc.",
+    duration: "June 2021 – December 2021",
     description:
-      "In my role as a Junior Web Developer, I assisted in the development and maintenance of various web applications. I gained hands-on experience in utilizing HTML, CSS, and JavaScript to create user-friendly interfaces. I actively participated in team meetings, contributed to project planning, and collaborated with senior developers to implement new features.",
-  },
+      "Supported the development of internal tools and web interfaces using React.js, HTML, CSS, and JavaScript. Collaborated with senior developers to implement new UI features, fix bugs, and test components. Participated in Agile sprints, learned Git version control, and gained practical experience in modern frontend workflows and deployment.",
+  }
 ];
+
 
 export const EDUCATION = [
   {
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "September 2012 - June 2014",
+    degree: "Diploma in Specialized Computer Development (UK Level 5 Equivalent)",
+    institution: "IT-SUP College, Casablanca",
+    duration: "September 2019 – July 2021",
     description:
-      "Specialized in Human-Computer Interaction and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures. Graduated with honors.",
+      "Completed a Level 5 equivalent diploma focused on full-stack web development and software engineering. Studied modern programming languages, web technologies, and database systems. Built practical projects using JavaScript, PHP, and MySQL while gaining hands-on experience in software design, data structures, and teamwork.",
   },
   {
-    degree: "Bachelor of Science in Information Technology",
-    institution: "University of California, Berkeley",
-    duration: "September 2008 - June 2012",
+    degree: "High School Diploma – Science Stream",
+    institution: "Qualifying High School in Morocco",
+    duration: "September 2015 – July 2018",
     description:
-      "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
-  },
+      "Graduated from a science-focused program emphasizing mathematics and physics. This foundation supported my transition into the field of software development and problem-solving with technology.",
+  }
 ];
+
 
 export const SOCIAL_MEDIA_LINKS = [
   {
