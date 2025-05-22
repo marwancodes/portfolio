@@ -31,7 +31,7 @@ const Projects = () => {
                                 <MdArrowOutward />
                             </div>
                         </a>
-                        <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="px-4 py-2 mt-2 text-white rounded-full bg-rose-500 hover:bg-rose-600 w-[170px]">
+                        <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="px-4 py-2 mt-1 text-white rounded-full bg-rose-500 hover:bg-rose-600 w-[170px]">
                             <div className="flex items-center justify-center">
                                 <span>Live Preview</span>
                                 <MdArrowOutward />
